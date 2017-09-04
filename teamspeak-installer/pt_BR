@@ -1,0 +1,34 @@
+# Portugues do Brasil localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2015 Paweł‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
+# Traduzido por  Joel Chaves "Flacc"  <joel_chaves@icloud.com> 14/01/2016
+# Revisado e adaptado por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 30/01/2016
+# Sob a Licença GNU GPL v2
+# Last update 2017/01/19 by pavroo
+
+LOCAL1="Sair"
+LOCAL2="Nome"
+LOCAL3="Descrição"
+LOCAL4="Instalador On-Line do TeamSpaek Client"
+LOCAL5="O Instalador Online oferece TeamSpeak Client.\n\nPor favor selecione uma opção:"
+LOCAL6="Instalar o TeamSpeak Client"
+LOCAL7="Atualização do TeamSpeak Client"
+LOCAL8="Remover o TeamSpeak Client  do sistema"
+LOCAL9="Não fazer nada, vou instalá-lo mais tarde"
+LOCAL10="O aplicativo já está instalado!"
+LOCAL11="Sair..."
+LOCAL12="O aplicativo foi instalado com sucesso!"
+LOCAL13="Algo está errado! \nProvavelmente voce deve ter parado a instalação ou a conexão com à Internet está com problemas."
+LOCAL14="Você tem que remover a versão antiga do TeamSpeak Client do seu sistema antes de instalar um novo. \n\nGostaria de removê-lo agora?"
+LOCAL15="Nada foi modificado! \n\nClique em OK para sair."
+LOCAL16="Alguma coisa está errada ! \nNão conseguiu encontrar a nova versão  do Instalador do TeamSpeak Client. alguma coisa está errada!.\n\nVerifique a sua conexão com a Internet e tente novamente."
+LOCAL17="A versão mais antiga do TeamSpeak Client NÃO pode ser removida assim NÃO pode ser atualizado por uma versão mais nova."
+LOCAL18="A versão mais antiga do TeamSpeak Client foi removida com sucesso.\n\nVoce pode instalar uma  versão mais nova agora."
+LOCAL19="Teste de conexão com a Internet falhou!\n\nProvavelmente voce  NÃO  está conectado à Internet ou o servidor está fora-do-ar.\n\nVerifique a sua conexão  e tente novamente."
+LOCAL20="Infelizmente, NÃO  se conseguiu encontrar o TeamSpeak Client instalado no seu computador, então NÃO se pode se fazer uma atualização (nt: logo, faça uma NOVA instalação)."
+LOCAL21="Isto irá remover TeamSpeak Client de seu sistema.\n\nGostaria de removê-lo agora?"
+LOCAL22="TeamSpeak Client  NÃO  foi removido."
+LOCAL23="TeamSpeak Client foi removido com sucesso ou o mesmo  NÃO  está instalado no seu computador."
+
+### .desktop file to be translated too
+# Name[pt_BR]=Instalador do TeamSpeak Client
+# Comment[pt_BR]=Isto permite-lhe instalar, atualizar e remover o TeamSpeak Client

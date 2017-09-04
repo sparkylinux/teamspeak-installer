@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TeamSpeak Installer
+Name[es_AR]=Instalador del reproductor TeamSpeak
+Name[fr_FR]=Installateur du lecteur multimédia TeamSpeak
+Name[ja_JP]=TeamSpeak インストーラー
+Name[pl]=TeamSpeak Instalator
+Name[pt_BR]=Instalador do TeamSpeak
+Name[pt_PT]=TeamSpeak Installer
+Comment=This lets you install, upgrade and remove TeamSpeak
+Comment[es_AR]=Esto le permite instalar, actualizar y eliminar el reproductor TeamSpeak
+Comment[fr_FR]=Ceci va vous permettre d'installer, mettre à jour ou supprimer le lecteur multimédia TeamSpeak
+Comment[it_IT]=Installa, aggiorna e rimuovi TeamSpeak
+Comment[ja_JP]=TeamSpeak をインストール・更新・削除できます
+Comment[pl]=Pozwala na instalację, aktualizację i usunięcie TeamSpeak
+Comment[pt_BR]=Isto permite-lhe instalar, atualizar e remover o TeamSpeak
+Comment[pt_PT]=Isto permite-lhe instalar, atualizar e remover TeamSpeak
+Exec=remsu /usr/bin/teamspeak-installer
+Icon=teamspeak
+Categories=Application;Game;
+Terminal=False
+Type=Application

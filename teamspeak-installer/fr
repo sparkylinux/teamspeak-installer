@@ -1,0 +1,32 @@
+# French localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2016 hiver <hiver@club-internet.fr> 2016/05/12
+# Sous licence GNU GPL v2
+# Last update 2017/01/19 by pavroo
+
+LOCAL1="Quitter"
+LOCAL2="Nom"
+LOCAL3="Description"
+LOCAL4="Installateur en ligne du lecteur multimédia TeamSpaek Client"
+LOCAL5="L'installateur en ligne propose TeamSpeak Client.\n\nChoisissez une option s'il vous plait:"
+LOCAL6="Installer le lecteur multimédia TeamSpeak Client"
+LOCAL7="Mettre à jour le lecteur multimédia TeamSpeak Client"
+LOCAL8="Enlever le lecteur multimédia TeamSpeak Client du système"
+LOCAL9="Ne rien faire, je l'installerai plus tard"
+LOCAL10="L'application est déjà installée!"
+LOCAL11="Quitter..."
+LOCAL12="L'application a été installée avec succès!"
+LOCAL13="Il y a un problème! \nPeut-être avez-vous stoppé l'installation ou bien votre connexion internet est interrompue."
+LOCAL14="Vous devez supprimer l'ancienne version du lecteur multimédia TeamSpeak Client du système avant d'installer la nouvelle version. \n\nVoulez-vous la supprimer maintenant?"
+LOCAL15="Rien n'a été modifié! \n\nCliquez sur OK pour quitter."
+LOCAL16="Il y a un problème! \nLa nouvelle version de l'installateur du lecteur multimédia TeamSpeak Client n'a pu être trouvée.\n\nVérifiez la connexion internet et essayez à nouveau."
+LOCAL17="L'ancienne version du lecteur multimédia TeamSpeak Client n'a pu être désinstallée et ne peut donc être mise à jour."
+LOCAL18="L'ancienne version du lecteur multimédia TeamSpeak Client a été désinstallée avec succès.\n\nVous pouvez à présent installer la nouvelle version."
+LOCAL19="Échec du test de la connexion internet!\n\nVous n'êtes probablement pas connecté à Internet ou bien le serveur du projet est hors-service.\n\nVérifiez et essayez à nouveau."
+LOCAL20="La mise à jour n'a pu avoir lieu car aucune version installée du lecteur multimédia TeamSpeak Client n'a été trouvée."
+LOCAL21="Ceci va supprimer le lecteur multimédia TeamSpeak Client de votre système.\n\nVoulez-vous le supprimer maintenant?"
+LOCAL22="Le lecteur multimédia TeamSpeak Client n'a pu être supprimé."
+LOCAL23="Le lecteur multimédia TeamSpeak Client a été supprimé ou n'a pas été installé sur l'ordinateur."
+
+### .desktop file to be translated to
+# Name[fr_FR]=Installateur du lecteur multimédia TeamSpeak Client
+# Comment[fr_FR]=Ceci va vous permettre d'installer, mettre à jour ou supprimer le lecteur multimédia TeamSpeak Client

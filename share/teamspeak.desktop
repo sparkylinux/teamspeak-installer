@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TeamSpeak
+Comment=VoIP software for audio communication between users on a chat channel
+Comment[pl]=Aplikacja VoIP do komunikacji głosowej i tekstowej między wieloma użytkownikam
+Exec=/usr/bin/teamspeak3
+Icon=teamspeak
+Categories=Application;Game;
+Terminal=False
+Type=Application

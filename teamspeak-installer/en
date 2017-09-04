@@ -1,0 +1,32 @@
+# English localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
+# Under the GNU GPL v2
+# Last update 2017/01/19 by pavroo
+
+LOCAL1="Exit"
+LOCAL2="Name"
+LOCAL3="Description"
+LOCAL4="TeamSpaek Client On-Line Installer"
+LOCAL5="The On-Line Installer provides TeamSpeak Client.\n\nPlease select an option:"
+LOCAL6="Install TeamSpeak Client"
+LOCAL7="Upgrade TeamSpeak Client"
+LOCAL8="Remove TeamSpeak Client from the system"
+LOCAL9="Do nothing, I will install it later"
+LOCAL10="The application is already installed!"
+LOCAL11="Exiting..."
+LOCAL12="The application has been installed successfully!"
+LOCAL13="Something is wrong! \nProbably you have stopped the installation or your internet connection is broken."
+LOCAL14="You have to remove an older version of TeamSpeak Client from your system before installing a new one. \n\nWould you like to remove it now?"
+LOCAL15="Nothing has been changed! \n\nClick OK to quit."
+LOCAL16="Something is wrong! \nCan't find the new version of TeamSpeak Client Installer.\n\nCheck your internet connection and try again."
+LOCAL17="The older version of TeamSpeak Client has been NOT removed so can NOT be upgraded."
+LOCAL18="The older version of TeamSpeak Client has been removed successufully.\n\nYou can install the new one now."
+LOCAL19="Internet connection test failed!\n\nProbably you are NOT connected to the Internet or the project server is down.\n\nCheck it out and try again."
+LOCAL20="Can't find TeamSpeak Client installed on your computer so can NOT be upgraded."
+LOCAL21="This will remove TeamSpeak Client from your system.\n\nWould you like to remove it now?"
+LOCAL22="TeamSpeak Client has NOT been removed."
+LOCAL23="TeamSpeak Client has been removed or has not been installed on your computer."
+
+### .desktop file to be translated to
+# Name[en_US]=TeamSpeak Client Installer
+# Comment[en_US]=This lets you install, upgrade and remove TeamSpeak Client

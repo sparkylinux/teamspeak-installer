@@ -1,0 +1,33 @@
+# Portugues de Portugal localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Thursday 14 January 01:37:06 WET 2016
+# Sob a Licença GNU GPL v2
+# Última atualização Thursday 14 January 01:37:06 WET 2016
+# Last update 2017/01/19 by pavroo
+
+LOCAL1="Sair"
+LOCAL2="Nome"
+LOCAL3="Descrição"
+LOCAL4="TeamSpaek Client On-Line Installer"
+LOCAL5="O Instalador Online oferece TeamSpeak Client.\n\nPor favor selecione uma opção:"
+LOCAL6="Instalar TeamSpeak Client"
+LOCAL7="Actualização TeamSpeak Client"
+LOCAL8="Remover TeamSpeak Client a partir do sistema"
+LOCAL9="Não fazer nada, vou instalá-lo mais tarde"
+LOCAL10="O aplicativo já está instalado!"
+LOCAL11="Sair..."
+LOCAL12="O aplicativo foi instalado com sucesso!"
+LOCAL13="Algo está errado! \nProvavelmente deve ter parado a instalação ou a ligação à Internet está com problemas."
+LOCAL14="Você tem que remover a versão antiga do TeamSpeak Client do seu sistema antes de instalar um novo. \n\nGostaria de removê-lo agora?"
+LOCAL15="Nada foi mudado! \n\nClique em OK para sair."
+LOCAL16="Alguma coisa está errada ! \nNão consegue encontrar a nova versão do TeamSpeak Client Installer. alguma coisa está errado!.\n\nVerifique a sua ligação à Internet e tente novamente."
+LOCAL17="A versão mais antiga do TeamSpeak Client foi removido assim não pode ser atualizado."
+LOCAL18="A versão mais antiga do TeamSpeak Client foi removido com sucesso.\n\nPode instalar a nova versão agora."
+LOCAL19="Teste de conexão com a Internet falhou!\n\nProvavelmente não está conectado à Internet ou o servidor está com problemas.\n\nConfira e tente novamente."
+LOCAL20="Não consegue encontrar TeamSpeak Client instalado no seu computador para que não pode ser atualizado."
+LOCAL21="Isto irá remover TeamSpeak Client de seu sistema.\n\nGostaria de removê-lo agora?"
+LOCAL22="TeamSpeak Client não foi removido."
+LOCAL23="TeamSpeak Client foi removido ou foi mesmo não instalado no seu computador."
+
+### .desktop file to be translated too
+# Name[pt_PT]=TeamSpeak Client Installer
+# Comment[pt_PT]=Isto permite-lhe instalar, atualizar e remover TeamSpeak Client

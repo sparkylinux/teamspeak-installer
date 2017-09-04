@@ -1,0 +1,33 @@
+# Spanish localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
+# Bajo la licencia GNU GPL v2
+# Ultima actualización 2015/12/26
+# Last update 2017/01/19 by pavroo
+
+LOCAL1="Salir"
+LOCAL2="Nombre"
+LOCAL3="Descripción"
+LOCAL4="Instalador online del reproductor TeamSpaek Client"
+LOCAL5="El instalador online proporciona TeamSpeak Client.\n\nPor favor, elija una opción:"
+LOCAL6="Instalar el reproductor TeamSpeak Client"
+LOCAL7="Actualizar el reproductor TeamSpeak Client"
+LOCAL8="Eliminar el reproductor TeamSpeak Client de su sistema"
+LOCAL9="No hacer nada, lo instalaré más tarde"
+LOCAL10="¡La aplicación ya está instalada!"
+LOCAL11="Saliendo..."
+LOCAL12="¡La aplicación se instaló correctamente!"
+LOCAL13="¡Algo está mal! \nProbablemente Ud haya detenido la instalación o se haya cortado su conexión a Internet."
+LOCAL14="Ud tiene que eliminar la versión vieja del reproductor TeamSpeak Client de su sistema antes de instalar la nueva. \n\n¿Quiere eliminarla ahora?"
+LOCAL15="¡No cambió nada! \n\nHacer clic en OK para salir."
+LOCAL16="¡Algo está mal! \nNose puede encontrar la nueva versión del instalador del reproductor TeamSpeak Client.\n\nVerifique su conexión a Internet e inténtelo nuevamente."
+LOCAL17="NO se eliminó la vieja versión del reproductor TeamSpeak Client, por lo que NO se pudo actualizarla."
+LOCAL18="Se eliminó correctamente la vieja versión del reproductor TeamSpeak Client.\n\nPuede instalar la nueva versión ahora."
+LOCAL19="¡Falló la prueba de conexión a Internet!\n\nProbablemnete Ud NO esté conectado a Internet o el servidor del proyecto esté caído.\n\nVerifique esto e inténtelo nuevamente."
+LOCAL20="NO se puede actulizar el reproductor TeamSpeak Client porque no se lo encontró en su sistema."
+LOCAL21="Esto eliminará al reproductor TeamSpeak Client de su sistema.\n\n¿Quiere eliminarlo ahora?"
+LOCAL22="NO se eliminó el reproductor TeamSpeak Client."
+LOCAL23="Se eliminó el reproductor TeamSpeak Client o nunca estuvo instalado en su computadora."
+
+### .desktop file to be translated too
+# Name[es_AR]=Instalador del reproductor TeamSpeak Client
+# Comment[es_AR]=Esto le permite instalar, actualizar y eliminar el reproductor TeamSpeak Client
