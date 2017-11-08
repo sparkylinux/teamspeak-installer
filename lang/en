@@ -1,8 +1,7 @@
 # English localization file for TeamSpeak based on VMPlayer Installer.
 # Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
 # Under the GNU GPL v2
-# Last update 2017/01/19 by pavroo
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="Exit"
 LOCAL2="Name"
 LOCAL3="Description"
@@ -26,7 +25,7 @@ LOCAL20="Can't find TeamSpeak Client installed on your computer so can NOT be up
 LOCAL21="This will remove TeamSpeak Client from your system.\n\nWould you like to remove it now?"
 LOCAL22="TeamSpeak Client has NOT been removed."
 LOCAL23="TeamSpeak Client has been removed or has not been installed on your computer."
-
+LOCAL24="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated to
 # Name[en_US]=TeamSpeak Client Installer
 # Comment[en_US]=This lets you install, upgrade and remove TeamSpeak Client

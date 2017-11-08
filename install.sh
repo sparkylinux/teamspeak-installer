@@ -36,5 +36,5 @@ else
 	if [ ! -d /usr/share/sparky/teamspeak-installer ]; then
 		mkdir -p /usr/share/sparky/teamspeak-installer
 	fi
-	cp teamspeak-installer/* /usr/share/sparky/teamspeak-installer/
+	cp lang/* /usr/share/sparky/teamspeak-installer/
 fi

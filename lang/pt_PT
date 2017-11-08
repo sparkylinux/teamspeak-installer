@@ -2,8 +2,7 @@
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Thursday 14 January 01:37:06 WET 2016
 # Sob a Licença GNU GPL v2
 # Última atualização Thursday 14 January 01:37:06 WET 2016
-# Last update 2017/01/19 by pavroo
-
+# Last update 2017/11/09 by pavroo
 LOCAL1="Sair"
 LOCAL2="Nome"
 LOCAL3="Descrição"
@@ -27,7 +26,7 @@ LOCAL20="Não consegue encontrar TeamSpeak Client instalado no seu computador pa
 LOCAL21="Isto irá remover TeamSpeak Client de seu sistema.\n\nGostaria de removê-lo agora?"
 LOCAL22="TeamSpeak Client não foi removido."
 LOCAL23="TeamSpeak Client foi removido ou foi mesmo não instalado no seu computador."
-
+LOCAL24="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[pt_PT]=TeamSpeak Client Installer
 # Comment[pt_PT]=Isto permite-lhe instalar, atualizar e remover TeamSpeak Client

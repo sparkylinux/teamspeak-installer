@@ -2,8 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2017/01/19 by pavroo
-
+# Last update 2017/11/09 by pavroo
 LOCAL1="Zakończ"
 LOCAL2="Nazwa"
 LOCAL3="Opis"
@@ -27,7 +26,7 @@ LOCAL20="Nie można znaleźć zainstalowanej aplikacji TeamSpeak klient na Twoim
 LOCAL21="Usunięcie TeamSpeak klient z systemu.\n\nCzy chcesz usunąć teraz?"
 LOCAL22="TeamSpeak klient NIE został usunięty."
 LOCAL23="TeamSpeak klient został usunięty lub nawet nie był zainstalowany na Twoim komputerze."
-
+LOCAL24="Ta aplikacja nie może być zainstalowany na obecnej wersji Debiana/Sparky."
 ### .desktop file, również do przetłumaczenia
 # Name[pl_PL]=TeamSpeak klient Instalator
 # Comment[pl_PL]=Pozwala na instalację, aktualizację i usunięcie TeamSpeak klient

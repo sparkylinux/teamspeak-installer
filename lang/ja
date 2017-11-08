@@ -2,8 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
 # Under the GNU GPL v2
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-# Last update 2017/01/19 by pavroo
-
+# Last update 2017/11/09 by pavroo
 LOCAL1="終了"
 LOCAL2="名前"
 LOCAL3="説明"
@@ -27,7 +26,7 @@ LOCAL20="TeamSpeak Client インストーラーが見つかりません。アッ
 LOCAL21="システムから TeamSpeak Client を削除します。\n\n削除してよろしいですか？"
 LOCAL22="TeamSpeak Client は削除されませんでした。"
 LOCAL23="TeamSpeak Client は削除されたか、インストールされていません。"
-
+LOCAL24="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[ja_JP]=TeamSpeak Client インストーラー
 # Comment[ja_JP]=TeamSpeak Client をインストール・更新・削除できます

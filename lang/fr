@@ -1,8 +1,7 @@
 # French localization file for TeamSpeak based on VMPlayer Installer.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/05/12
 # Sous licence GNU GPL v2
-# Last update 2017/01/19 by pavroo
-
+# Last update 2017/11/09 by pavroo
 LOCAL1="Quitter"
 LOCAL2="Nom"
 LOCAL3="Description"
@@ -26,7 +25,7 @@ LOCAL20="La mise à jour n'a pu avoir lieu car aucune version installée du lect
 LOCAL21="Ceci va supprimer le lecteur multimédia TeamSpeak Client de votre système.\n\nVoulez-vous le supprimer maintenant?"
 LOCAL22="Le lecteur multimédia TeamSpeak Client n'a pu être supprimé."
 LOCAL23="Le lecteur multimédia TeamSpeak Client a été supprimé ou n'a pas été installé sur l'ordinateur."
-
+LOCAL24="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated to
 # Name[fr_FR]=Installateur du lecteur multimédia TeamSpeak Client
 # Comment[fr_FR]=Ceci va vous permettre d'installer, mettre à jour ou supprimer le lecteur multimédia TeamSpeak Client

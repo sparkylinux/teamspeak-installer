@@ -2,8 +2,7 @@
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
 # Ultima actualización 2015/12/26
-# Last update 2017/01/19 by pavroo
-
+# Last update 2017/11/09 by pavroo
 LOCAL1="Salir"
 LOCAL2="Nombre"
 LOCAL3="Descripción"
@@ -27,7 +26,7 @@ LOCAL20="NO se puede actulizar el reproductor TeamSpeak Client porque no se lo e
 LOCAL21="Esto eliminará al reproductor TeamSpeak Client de su sistema.\n\n¿Quiere eliminarlo ahora?"
 LOCAL22="NO se eliminó el reproductor TeamSpeak Client."
 LOCAL23="Se eliminó el reproductor TeamSpeak Client o nunca estuvo instalado en su computadora."
-
+LOCAL24="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[es_AR]=Instalador del reproductor TeamSpeak Client
 # Comment[es_AR]=Esto le permite instalar, actualizar y eliminar el reproductor TeamSpeak Client
