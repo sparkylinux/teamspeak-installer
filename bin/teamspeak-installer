@@ -3,8 +3,8 @@
 # TeamSpeak 3 Client Installer is a script which can download
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
-# Copyright 2017 under the GNU GPL2 License
-# Last update 2017/12/18
+# Copyright 2017-2018 under the GNU GPL2 License
+# Last update 2018/01/25
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
 if [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
@@ -46,9 +46,9 @@ if [ -f /usr/bin/sparky-terminal ]; then
 else
 	SPARKYXTERM="x-terminal-emulator"
 fi
-SERVER="http://dl.4players.de/ts/releases/3.1.7"
-PACK32="TeamSpeak3-Client-linux_x86-3.1.7.run"
-PACK64="TeamSpeak3-Client-linux_amd64-3.1.7.run"
+SERVER="http://dl.4players.de/ts/releases/3.1.8"
+PACK32="TeamSpeak3-Client-linux_x86-3.1.8.run"
+PACK64="TeamSpeak3-Client-linux_amd64-3.1.8.run"
 ARCHARM="`uname -m | grep arm`"
 
 if [ "$ARCHARM" != "" ]; then
@@ -121,14 +121,30 @@ else
 		if [ -d $WORKDIR/TeamSpeak3-Client-linux_x86 ]; then
 			mv TeamSpeak3-Client-linux_x86 /opt/teamspeak
 			if [ -f /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh ]; then
-				ln -s /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh /usr/bin/teamspeak3
+				#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh /usr/bin/teamspeak3
+cat > /usr/bin/teamspeak3 <<FOO
+#!/bin/sh
+
+cd /opt/teamspeak/TeamSpeak3-Client-linux_x86
+./ts3client_runscript.sh
+
+FOO
+chmod +x /usr/bin/teamspeak3
 			fi
 		fi
 	else
 		if [ -d $WORKDIR/TeamSpeak3-Client-linux_amd64 ]; then
 			mv TeamSpeak3-Client-linux_amd64 /opt/teamspeak
 			if [ -f /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh ]; then
-				ln -s /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh /usr/bin/teamspeak3
+				#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh /usr/bin/teamspeak3
+cat > /usr/bin/teamspeak3 <<FOO
+#!/bin/sh
+
+cd /opt/teamspeak/TeamSpeak3-Client-linux_amd64
+./ts3client_runscript.sh
+
+FOO
+chmod +x /usr/bin/teamspeak3
 			fi
 		fi
 	fi
@@ -223,14 +239,30 @@ if [ -f /usr/bin/teamspeak3 ]; then
 			if [ -d $WORKDIR/TeamSpeak3-Client-linux_x86 ]; then
 				mv TeamSpeak3-Client-linux_x86 /opt/teamspeak
 				if [ -f /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh ]; then
-					ln -s /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh /usr/bin/teamspeak3
+					#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh /usr/bin/teamspeak3
+cat > /usr/bin/teamspeak3 <<FOO
+#!/bin/sh
+
+cd /opt/teamspeak/TeamSpeak3-Client-linux_x86
+./ts3client_runscript.sh
+
+FOO
+chmod +x /usr/bin/teamspeak3
 				fi
 			fi
 		else
 			if [ -d $WORKDIR/TeamSpeak3-Client-linux_amd64 ]; then
 				mv TeamSpeak3-Client-linux_amd64 /opt/teamspeak
 				if [ -f /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh ]; then
-					ln -s /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh /usr/bin/teamspeak3
+					#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh /usr/bin/teamspeak3
+cat > /usr/bin/teamspeak3 <<FOO
+#!/bin/sh
+
+cd /opt/teamspeak/TeamSpeak3-Client-linux_amd64
+./ts3client_runscript.sh
+
+FOO
+chmod +x /usr/bin/teamspeak3
 				fi
 			fi
 		fi

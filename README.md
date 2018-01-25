@@ -1,7 +1,7 @@
 TeamSpeak Installer
 TeamSpeak is software for quality voice communication via the Internet. This script can download, install, upgrade and remove TeamSpeak client for Linux.
 
-Copyright (C) 2017 Paweł Pijanowski and others, see copyright file.
+Copyright (C) 2017-2018 Paweł Pijanowski and others, see copyright file.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
