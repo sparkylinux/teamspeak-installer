@@ -2,7 +2,15 @@
 Encoding=UTF-8
 Name=TeamSpeak
 Comment=VoIP software for audio communication between users on a chat channel
-Comment[pl]=Aplikacja VoIP do komunikacji głosowej i tekstowej między wieloma użytkownikam
+Comment[de]=VoIP-Anwendung für die Sprach- und Textkommunikation zwischen mehreren Benutzern
+Comment[es]=Aplicación VoIP para comunicación de voz y texto entre múltiples usuarios
+Comment[fr]=Application VoIP pour la communication vocale et textuelle entre plusieurs utilisateurs
+Comment[it]=Applicazione VoIP per comunicazioni voce e testo tra più utenti
+Comment[ja]=複数のユーザ間の音声およびテキスト通信のためのVoIPアプリケーション
+Comment[pl]=Aplikacja VoIP do komunikacji głosowej i tekstowej między wieloma użytkownikami
+Comment[pt]=Aplicativo VoIP para comunicação de voz e texto entre vários usuários
+Comment[ru]=VoIP-приложение для голосовой и текстовой связи между несколькими пользователями
+Comment[sv]=VoIP-applikation för röst- och textkommunikation mellan flera användare
 Exec=/usr/bin/teamspeak3
 Icon=teamspeak
 Categories=Application;Game;
