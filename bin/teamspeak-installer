@@ -4,7 +4,7 @@
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
 # Copyright 2017-2018 under the GNU GPL2 License
-# Last update 2018/05/16
+# Last update 2018/06/22
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
 if [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
@@ -46,9 +46,9 @@ else
 	echo "sparky-xterm is missing... Exiting..."
 	exit 1
 fi
-SERVER="http://dl.4players.de/ts/releases/3.1.9"
-PACK32="TeamSpeak3-Client-linux_x86-3.1.9.run"
-PACK64="TeamSpeak3-Client-linux_amd64-3.1.9.run"
+SERVER="http://dl.4players.de/ts/releases/3.1.10"
+PACK32="TeamSpeak3-Client-linux_x86-3.1.10.run"
+PACK64="TeamSpeak3-Client-linux_amd64-3.1.10.run"
 ARCHARM="`uname -m | grep arm`"
 
 if [ "$ARCHARM" != "" ]; then
