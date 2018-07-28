@@ -1,0 +1,32 @@
+# Indonesian localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
+# Under the GNU GPL v2
+# Last update 2018/07/28 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Keluar"
+LOCAL2="Nama"
+LOCAL3="Deskripsi"
+LOCAL4="Penginstal Online Klien TimSpeak"
+LOCAL5="Penginstal online menyediakan Klien TeamSpeak.\n\nPilih salah satu:"
+LOCAL6="Instal Klien TeamSpeak"
+LOCAL7="Upgrade Klien TimSpeak"
+LOCAL8="Hapus Klien TeamSpeak dari sistem"
+LOCAL9="Tidak usah melakukan apa-apa, saya akan menginstalnya nanti"
+LOCAL10="Aplikasi sudah ter-instal!"
+LOCAL11="Keluar..."
+LOCAL12="Aplikasi sudah berhasil di-instal!"
+LOCAL13="Ada yang salah!\nMungkin anda menghentikan proses instal, atau koneksi internet anda terputus."
+LOCAL14="Anda harus menghapus versi lama Klien TeamSpeak dari sistem, sebelum menginstal yang baru. \n\nApakah anda mau menghapusnya sekarang?"
+LOCAL15="Tidak ada yang berubah! \n\nKlik OK untuk keluar."
+LOCAL16="Ada yang salah! \nVersi baru Penginstal Klien TeamSpeak tidak ditemukan.\n\nPeriksa koneksi internet dan coba lagi."
+LOCAL17="Versi lama Klien TeamSpeak BELUM dihapus, jadi tidak bisa di-upgrade."
+LOCAL18="Versi lama Klien TeamSpeak berhasil dihapus.\n\nAnda bisa menginstal yang baru sekarang."
+LOCAL19="Uji koneksi internet gagal!\n\nMungkin anda tidak terhubung ke Internet, atau server proyek sedang mati.\n\nPeriksa dan coba lagi."
+LOCAL20="Instalasi Klien TeamSpeak tidak ditemukan di komputer anda, jadi tidak bisa di-upgrade."
+LOCAL21="Ini akan menghapus Klien TeamSpeak dari sistem Anda.\n\nAnda mau menghapusnya sekarang?"
+LOCAL22="Klien TeamSpeak BELUM dihapus."
+LOCAL23="Klien TeamSpeak sudah dihapus, atau belum di-instal di komputer anda."
+LOCAL24="Ini tidak bisa di-instal di versi Debian/Sparky anda."
+### .desktop file to be translated to
+# Name[id_ID]=Penginstal Klien TeamSpeak
+# Comment[id_ID]=Ini untuk menginstal, upgrade, dan menghapus Klien TeamSpeak
