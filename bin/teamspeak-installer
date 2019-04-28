@@ -4,7 +4,7 @@
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
 # Copyright 2017-2018 under the GNU GPL2 License
-# Last update 2018/10/23
+# Last update 2019/04/26
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
 if [ "`cat /etc/default/locale | grep es`" != "" ]; then
@@ -48,9 +48,9 @@ else
 	echo "sparky-xterm is missing... Exiting..."
 	exit 1
 fi
-SERVER="http://dl.4players.de/ts/releases/3.2.3"
-PACK32="TeamSpeak3-Client-linux_x86-3.2.3.run"
-PACK64="TeamSpeak3-Client-linux_amd64-3.2.3.run"
+SERVER="http://dl.4players.de/ts/releases/3.2.5"
+PACK32="TeamSpeak3-Client-linux_x86-3.2.5.run"
+PACK64="TeamSpeak3-Client-linux_amd64-3.2.5.run"
 ARCHARM="`uname -m | grep arm`"
 
 if [ "$ARCHARM" != "" ]; then
@@ -126,7 +126,7 @@ else
 				#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh /usr/bin/teamspeak3
 cat > /usr/bin/teamspeak3 <<FOO
 #!/bin/sh
-
+export OPENSSL_CONF=~/bin/etc/openssl.cnf
 cd /opt/teamspeak/TeamSpeak3-Client-linux_x86
 ./ts3client_runscript.sh
 
@@ -141,7 +141,7 @@ chmod +x /usr/bin/teamspeak3
 				#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh /usr/bin/teamspeak3
 cat > /usr/bin/teamspeak3 <<FOO
 #!/bin/sh
-
+export OPENSSL_CONF=~/bin/etc/openssl.cnf
 cd /opt/teamspeak/TeamSpeak3-Client-linux_amd64
 ./ts3client_runscript.sh
 
@@ -244,7 +244,7 @@ if [ -f /usr/bin/teamspeak3 ]; then
 					#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_x86/ts3client_runscript.sh /usr/bin/teamspeak3
 cat > /usr/bin/teamspeak3 <<FOO
 #!/bin/sh
-
+export OPENSSL_CONF=~/bin/etc/openssl.cnf
 cd /opt/teamspeak/TeamSpeak3-Client-linux_x86
 ./ts3client_runscript.sh
 
@@ -259,7 +259,7 @@ chmod +x /usr/bin/teamspeak3
 					#ln -s /opt/teamspeak/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh /usr/bin/teamspeak3
 cat > /usr/bin/teamspeak3 <<FOO
 #!/bin/sh
-
+export OPENSSL_CONF=~/bin/etc/openssl.cnf
 cd /opt/teamspeak/TeamSpeak3-Client-linux_amd64
 ./ts3client_runscript.sh
 
