@@ -3,14 +3,16 @@
 # TeamSpeak 3 Client Installer is a script which can download
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
-# Copyright 2017-2018 under the GNU GPL2 License
-# Last update 2019/07/03
+# Copyright 2017-2019 under the GNU GPL2 License
+# Last update 2019/10/17
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
 if [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
 elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
 elif [ "`cat /etc/default/locale | grep it`" != "" ]; then

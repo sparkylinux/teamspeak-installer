@@ -1,0 +1,31 @@
+# Hungarian localization file for TeamSpeak based on VMPlayer Installer. (Translated by Nemomen)
+# Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
+# Under the GNU GPL v2
+# Last update 2017/11/08 by pavroo
+LOCAL1="Kilépés"
+LOCAL2="Név"
+LOCAL3="Leírás"
+LOCAL4="TeamSpeak Kliens On-Line Telepítő"
+LOCAL5="Az On-Line Telepítő szolgáltatja a  TeamSpeak Klienst.\n\nVálasszon opciót:
+LOCAL6="Telepítse a TeamSpeak Klienst"
+LOCAL7="Korszerűsítse (frissítse) [Upgrade] a TeamSpeak Klienst"
+LOCAL8="Távolítsa el a TeamSpeak Klienst a rendszerből!"
+LOCAL9="Ne tegyen semmit, én fogom később telepíteni!"
+LOCAL10="Az alkalmazás már telepítve!"
+LOCAL11="Kilépés..."
+LOCAL12="Az alkalmazás sikeresen telepítve!"
+LOCAL13="Valami hibás! \nTalán megszakította a telepítést, vagy megszakadt az Internet kapcsolat.
+LOCAL14="Mielőtt újat telepítene, el kell távolítania a TeamSpeak Kliens korábbi változatát a rendszeréből. \n\nKívánja most eltávolítani?"
+LOCAL15="Semmi sem változott! \n\nKattintson OK-t a kilépéshez!"
+LOCAL16="Valami hibás! \nNem található a TeamSpeak Kliens Telepítő új változata."\n\nKérjük, ellenőrizze Internet kapcsolatát és próbálja újra!"
+LOCAL17="Nincs eltávolítva a TeamSpeak Kliens korábbi változata, így nem korszerűsíthető (frissíthető)."
+LOCAL18="A TeamSpeak Kliens korábbi változata sikeresen eltávolítva.\n\nMost telepíteni tudja az újat."
+LOCAL19="Az Internet kapcsolati teszt sikertelen!\n\nLehet, hogy Ön NEM kapcsolódik az Internet-hálózatra vagy a  projekt szerver nem érhető el.\n\nEllenőrizze és próbálja újra!"
+LOCAL20="Nem található az Ön gépére telepített TeamSpeak Kliens így NEM TUD frissíteni/korszerűsíteni.”
+LOCAL21="Ez el fogja távolítani az Ön rendszeréből a TeamSpeak Klienst.\n\nMost kívánja eltávolítani?"
+LOCAL22="A TeamSpeak Kliens NINCS eltávolítva."
+LOCAL23="A TeamSpeak Kliens el van távolítva az Ön gépéről vagy nincs telepítve az Ön gépén."
+LOCAL24="Ez nem telepíthető az Ön Debian/Sparky változatára"
+### .desktop file to be translated to
+# Name[en_US]=TeamSpeak Client Installer
+# Comment[en_US]=This lets you install, upgrade and remove TeamSpeak Client
