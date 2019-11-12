@@ -1,32 +1,33 @@
 # Japanese localization file for TeamSpeak based on VMPlayer Installer.
-# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
+# Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
 # Under the GNU GPL v2
-# Translated to Japanese by BALLOON a.k.a. Fu-sen.
 # Last update 2017/11/09 by pavroo
+# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+# Translated to Japanese by FuRuYa7.
 LOCAL1="終了"
 LOCAL2="名前"
 LOCAL3="説明"
-LOCAL4="TeamSpaek Client オンラインインストーラー"
-LOCAL5="このインストーラーで提供するのは次のとおりです TeamSpeak Client\n\nオプションを選択して下さい:"
-LOCAL6="TeamSpeak Client のインストール"
-LOCAL7="TeamSpeak Client の更新"
-LOCAL8="TeamSpeak Client をシステムから削除"
-LOCAL9="何もしない。後でインストール"
+LOCAL4="TeamSpaek クライアント オンラインインストールツール"
+LOCAL5="オンラインインストールツールは TeamSpeak クライアント を提供します。\n\nオプションを選択して下さい:"
+LOCAL6="TeamSpeak クライアント のインストール"
+LOCAL7="TeamSpeak クライアント のアップグレード"
+LOCAL8="TeamSpeak クライアント の削除"
+LOCAL9="何もしません。後でインストール"
 LOCAL10="アプリケーションはすでにインストールされています"
 LOCAL11="終了します..."
-LOCAL12="アプリケーションはインストールしました！"
-LOCAL13="何か問題があります！ \nインストールを停止しているか、インターネット接続が切断されています。"
-LOCAL14="新しい TeamSpeak Client をインストールする前に、システムから古いバージョンを削除する必要があります。 \n\n削除を行ってよろしいですか？"
+LOCAL12="アプリケーションをインストールしました！"
+LOCAL13="問題があります！ \nインストールを停止しているか、インターネットに接続されていません。"
+LOCAL14="新しい TeamSpeak クライアント をインストールする前に、古いバージョンを削除する必要があります。 \n\n削除してよろしいですか？"
 LOCAL15="何も変更されていません！ \n\nOK のクリックで終了します。"
-LOCAL16="何か問題があります！ \nTeamSpeak Client インストーラの新しいバージョンを見つけることができません。\n\nインターネット接続を確認し、再度行って下さい。"
-LOCAL17="TeamSpeak Clientの古いバージョン削除されなかったため、アップグレードすることはできません。"
-LOCAL18="TeamSpeak Clientの古いバージョンは削除されました。\n\n新バージョンをインストールする事ができます。"
-LOCAL19="インターネット接続に失敗しました！\n\nインターネットに接続されていないか、プロジェクトのサーバーがダウンしています。\n\n確認の上、もう一度行って下さい。"
-LOCAL20="TeamSpeak Client インストーラーが見つかりません。アップグレードすることはできません。"
-LOCAL21="システムから TeamSpeak Client を削除します。\n\n削除してよろしいですか？"
-LOCAL22="TeamSpeak Client は削除されませんでした。"
-LOCAL23="TeamSpeak Client は削除されたか、インストールされていません。"
-LOCAL24="It can not be installed on your version of Debian/Sparky."
+LOCAL16="問題があります！ \nTeamSpeak クライアント インストールツールの新しいバージョンを見つけることができません。\n\nインターネット接続を確認して、もう一度試してください。"
+LOCAL17="古いバージョンの TeamSpeak クライアントが削除されなかったため、アップグレードできません。"
+LOCAL18="古いバージョンの TeamSpeak クライアントは削除されました。\n\n新しいバージョンをインストールすることができます。"
+LOCAL19="インターネット接続に失敗しました！\n\nインターネットに接続されていないか、プロジェクトのサーバーがダウンしています。\n\n確認して、もう一度試してください。"
+LOCAL20="TeamSpeak クライアント インストールツールが見つかりません。アップグレードできません。"
+LOCAL21="TeamSpeak クライアント を削除します。\n\n削除してよろしいですか？"
+LOCAL22="TeamSpeak クライアント は削除されませんでした。"
+LOCAL23="TeamSpeak クライアント は削除されたか、インストールされていません。"
+LOCAL24="Debian/Sparky のバージョンにはインストールできません。"
 ### .desktop file to be translated too
-# Name[ja_JP]=TeamSpeak Client インストーラー
-# Comment[ja_JP]=TeamSpeak Client をインストール・更新・削除できます
+# Name[ja_JP]=TeamSpeak クライアント インストールツール
+# Comment[ja_JP]=TeamSpeak クライアント をインストール、アップグレード、削除できます
