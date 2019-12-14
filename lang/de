@@ -1,0 +1,32 @@
+# German localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
+# Under the GNU GPL v2
+# Last update 2017/11/08 by pavroo
+# draft translate -michael<thenumbersguy@o2online.de>2019/12
+LOCAL1="Beenden"
+LOCAL2="Name"
+LOCAL3="Beschreibung"
+LOCAL4="TeamSpeak Client Online-Installer"
+LOCAL5="Der Online-Installer installiert den TeamSpeak Client.\n\nBitte eine Option auswählen:"
+LOCAL6="TeamSpeak Client installieren"
+LOCAL7="TeamSpeak Client aktualisieren"
+LOCAL8="TeamSpeak Client aus dem System entfernen"
+LOCAL9="Nichts tun, wird später installiert"
+LOCAL10="Diese Version ist bereits installiert!"
+LOCAL11="Beende..."
+LOCAL12="TeamSpeak wurde erfolgreich installiert!"
+LOCAL13="Etwas ist schiefgelaufen! \nEntweder die Installation wurde gestoppt, oder die Internetverbindung ist gestört."
+LOCAL14="Eine ältere version des TeamSpeak Client muss entfernt werden, bevor die neuere installiert wird. \n\nAlte Version jetzt entfernen?"
+LOCAL15="Keine Änderungen durchgeführt! \n\nOK klicken zum Beenden."
+LOCAL16="Etwas ist schiefgelaufen! \nKann die neue Version des TeamSpeak Client Installers nicht finden.\n\nBitte Internetverbindung prüfen und erneut versuchen."
+LOCAL17="Die ältere Version des TeamSpeak Client wurde NICHT entfernt; Upgrade also NICHT möglich."
+LOCAL18="Die ältere Version des TeamSpeak Client wurde erfolgreich entfernt.\n\ndie neue Version kann jetzt installiert werden."
+LOCAL19="Internetverbindungstest fehlgeschlagen!\n\nMöglicherweise besteht keine Internetverbindung oder der Project server ist offline.\n\nBitte überprüfen und erneut versuchen."
+LOCAL20="Kann keine TeamSpeak Client Installation finden, kann also NICHT upgraden."
+LOCAL21="Dies entfernt den TeamSpeak Client vom System.\n\nJetzt entfernen?"
+LOCAL22="TeamSpeak Client wurde NICHT entfernt."
+LOCAL23="TeamSpeak Client wurde entweder entfernt oder ist auf diesem System nicht installiert."
+LOCAL24="Kann auf dieser version von Debian/Sparky nicht installiert werden."
+### .desktop file to be translated to
+# Name[de_DE]=TeamSpeak Client Installationsprogramm
+# Comment[de_DE]=Installiert, aktualisiert oder entfernt TeamSpeak Client
