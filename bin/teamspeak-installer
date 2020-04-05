@@ -3,8 +3,8 @@
 # TeamSpeak 3 Client Installer is a script which can download
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
-# Copyright 2017-2019 under the GNU GPL2 License
-# Last update 2019/12/13
+# Copyright 2017-2020 under the GNU GPL2 License
+# Last update 2020/04/02
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
 if [ "`cat /etc/default/locale | grep de`" != "" ]; then
@@ -56,9 +56,9 @@ else
 	echo "sparky-xterm is missing... Exiting..."
 	exit 1
 fi
-SERVER="http://files.teamspeak-services.com/releases/client/3.3.2"
-PACK32="TeamSpeak3-Client-linux_x86-3.3.2.run"
-PACK64="TeamSpeak3-Client-linux_amd64-3.3.2.run"
+SERVER="http://files.teamspeak-services.com/releases/client/3.5.2"
+PACK32="TeamSpeak3-Client-linux_x86-3.5.2.run"
+PACK64="TeamSpeak3-Client-linux_amd64-3.5.2.run"
 ARCHARM="`uname -m | grep arm`"
 
 if [ "$ARCHARM" != "" ]; then
