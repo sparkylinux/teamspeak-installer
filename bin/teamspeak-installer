@@ -4,32 +4,32 @@
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
 # Copyright 2017-2020 under the GNU GPL2 License
-# Last update 2020/04/21
+# Last update 2020/10/05
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
-if [ "`cat /etc/default/locale | grep LANG=de`" != "" ]; then
+if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
 . $DEFLOCDIR/de
-elif [ "`cat /etc/default/locale | grep LANG=el`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep el`" != "" ]; then
 . $DEFLOCDIR/el
-elif [ "`cat /etc/default/locale | grep LANG=es`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
 . $DEFLOCDIR/es
-elif [ "`cat /etc/default/locale | grep LANG=fr`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
-elif [ "`cat /etc/default/locale | grep LANG=hu`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep hu`" != "" ]; then
 . $DEFLOCDIR/hu
-elif [ "`cat /etc/default/locale | grep LANG=id_ID`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
-elif [ "`cat /etc/default/locale | grep LANG=it`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep it`" != "" ]; then
 . $DEFLOCDIR/it
-elif [ "`cat /etc/default/locale | grep LANG=ja_JP`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep ja_JP`" != "" ]; then
 . $DEFLOCDIR/ja
-elif [ "`cat /etc/default/locale | grep LANG=pl`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep pl`" != "" ]; then
 . $DEFLOCDIR/pl
-elif [ "`cat /etc/default/locale | grep LANG=pt_BR`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep pt_BR`" != "" ]; then
 . $DEFLOCDIR/pt_BR
-elif [ "`cat /etc/default/locale | grep LANG=pt_PT`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt_PT
-elif [ "`cat /etc/default/locale | grep LANG=ru`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG= | grep ru`" != "" ]; then
 . $DEFLOCDIR/ru
 else
 . $DEFLOCDIR/en
