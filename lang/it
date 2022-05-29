@@ -1,31 +1,33 @@
-# Italian localization file for TeamSpeak based on VMPlayer Installer.
+# File di localizzazione in Italiano per TeamSpeak basato su VMPlayer Installer.
 # Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 12/11/2015
 # Rilasciato sotto licenza GNU GPL v2
 # Ultimo aggiornamento 30/11/2015
+# Ultimo aggiornamento 18/05/2022
+# Ultimo aggiornamento 2022/05/18 by Yodel Sinatra <mastodon.uno/@YodelSinatra>
 # Last update 2017/11/09 by pavroo
 LOCAL1="Esci"
 LOCAL2="Nome"
 LOCAL3="Descrizione"
 LOCAL4="Installer On-line per TeamSpaek Client"
-LOCAL5="L'Installer On-Line può fornire TeamSpeak Client.\n\nPrego effettua una scelta:"
+LOCAL5="L'Installer On-Line può fornire TeamSpeak Client.\n\nPer favore, effettua una scelta:"
 LOCAL6="Installa TeamSpeak Client"
 LOCAL7="Aggiorna TeamSpeak Client"
 LOCAL8="Rimuovi TeamSpeak Client dal sistema"
 LOCAL9="non fare nulla, lo installerò più tardi"
 LOCAL10="L'applicazione è già stata installata!"
-LOCAL11="Sto ucendo..."
+LOCAL11="Puoi uscire..."
 LOCAL12="L'applicazione è stata installata correttamente!"
 LOCAL13="Qualcosa è andato storto! \nProbabilmente hai interrotto l'installazione o la tua connessione internet è caduta."
-LOCAL14="È stata rilevata uina versione piuù vecchiua di VMPLayer sul tuo sistema: devi rimuoverla prima di poter installarne una nuova. \n\nVuoi rimuoverla adesso?"
-LOCAL15="Non è stato modificato nulla! \n\nClicca su OK per uscire."
-LOCAL16="Qualcosa è andato storto! \nNon posso trovare la nuova versione di VMPlayer Installer.\n\nControlla la tua connessione Internet e prova di nuovo."
-LOCAL17="La vecchia versione di TeamSpeak Client NON è stata rimossa, quindi NON posso procedere con l'installazione della nuova."
-LOCAL18="La vecchia versione di TeamSpeak Client è stata rimossa correttamente.\n\nPuoi procedere ad installare la versione più aggiornata adesso."
-LOCAL19="Test della connessione Internet fallito!\n\nProbabilmente NON sei connesso ad Internet od il server dei repository è offline.\n\nControlla e prova di nuovo."
+LOCAL14="È stata rilevata sul tuo sistema una versione precedente di VMPLayer: devi rimuoverla prima di installarne una nuova. \n\nVuoi rimuoverla adesso?"
+LOCAL15="Non è stato modificato nulla! \n\nClicca OK per uscire."
+LOCAL16="Qualcosa è andato storto! \nNon trovo la nuova versione di VMPlayer Installer.\n\nControlla la tua connessione Internet e riprova."
+LOCAL17="La versione precedente di TeamSpeak Client NON è stata rimossa, quindi NON posso installare la più recente."
+LOCAL18="La versione precedente di TeamSpeak Client è stata rimossa correttamente.\n\nPuoi installare la versione più aggiornata adesso."
+LOCAL19="Test della connessione Internet fallito!\n\nProbabilmente NON sei connesso ad Internet o il server dei repository è offline.\n\nControlla e riprova."
 LOCAL20="Non risulta che TeamSpeak Client sia stato installato sul tuo computer pertanto è IMPOSSIBILE procedere con l'aggiornamento."
-LOCAL21="Questo rimuoverò Player dal sistema.\n\nVuoi procedere con la rimozione adesso?"
+LOCAL21="Questo rimuoverà Player dal sistema.\n\nVuoi procedere con la rimozione adesso?"
 LOCAL22="TeamSpeak Client NON è stato rimosso."
-LOCAL23="TeamSpeak Client è stato rimosso, ovvero non era installato sul tuo computer."
+LOCAL23="TeamSpeak Client è stato rimosso o non era stato installato sul tuo computer."
 LOCAL24="Non può essere installato sulla tua versione di Debian/Sparky."
 ### .desktop file to be translated too
 # Name[it_IT]=TeamSpeak Client Installer
