@@ -1,0 +1,32 @@
+# Spanish (es_ES) localization file for TeamSpeak based on VMPlayer Installer.
+# Copyright 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2017/01/19
+# Under the GNU GPL v2
+# Last update 2017/11/08 by pavroo
+# Translated by depaz
+LOCAL1="Salir"
+LOCAL2="Nombre"
+LOCAL3="Descripción"
+LOCAL4="Instalador on-line del cliente de TeamSpeak"
+LOCAL5="El instalador on-line proporciona el cliente de TeamSpeak.\n\nPor favor, escoja una opción:"
+LOCAL6="Instalar  el cliente de TeamSpeak"
+LOCAL7="Actualizar el cliente de TeamSpeak"
+LOCAL8="Eliminar el cliente de TeamSpeak del sistema"
+LOCAL9="No hacer nada, lo instalaré más tarde"
+LOCAL10="¡La aplicación ya está instalada!"
+LOCAL11="Saliendo..."
+LOCAL12="¡La aplicación ha sido instalada con éxito!"
+LOCAL13="¡Algo está mal! \nEs probable que haya detenido la instalación o que su conexión de Internet esté averiada."
+LOCAL14="Debe eliminar la versión antigua del cliente de TeamSpeak de su sistema antes de instalar una nueva. \n\n¿Le gustaría eliminarla ahora?"
+LOCAL15="¡No se ha cambiado nada! \n\nPulse Ok para salir."
+LOCAL16="¡Algo está mal! \nNo es posible encontrar la nueva versión del instalador del cliente de TeamSpeak.\n\nCompruebe su conexión de Internet e inténtelo de nuevo."
+LOCAL17="La versión antigua del cliente de TeamSpeak NO se ha eliminado, así que NO se puede actualizar."
+LOCAL18="La versión antigua del cliente de TeamSpeak ha sido eliminada con éxito.\n\nAhora puede instalar la nueva."
+LOCAL19="¡El test de conexión a Internet falló!\n\nEs probable que NO esté conectado a Internet o que el servidor del repositorio principal esté caído. \n\nCompruébelo e inténtelo de nuevo."
+LOCAL20="No se pudo encontrar el cliente de TeamSpeak instalado en su equipo, por lo que NO puede ser actualizado."
+LOCAL21="Esto eliminará el cliente de TeamSpeak de su sistema.\n\n¿Desea eliminarlo ahora?"
+LOCAL22="El cliente de TeamSpeak NO ha sido eliminado."
+LOCAL23="El cliente de TeamSpeak ha sido eliminado o no ha sido instalado en su equipo."
+LOCAL24="No puede ser instalado en su versión de Debian/Sparky."
+### .desktop file to be translated to
+# Name[es_ES]=Instalador del cliente de TeamSpeak
+# Comment[es_ES]=Permite instalar, actualizar y eliminar el cliente de TeamSpeak
