@@ -2,7 +2,7 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 
 Files: *
-    Copyright (C) 2017-2022 Paweł Pijanowski
+    Copyright (C) 2017-2023 Paweł Pijanowski
     License: GNU GPLv3
 
 File: de
@@ -55,6 +55,10 @@ File: pt_PT
 
 File: ru
     Copyright 2019 ChourS2008
+    License: GNU GPL-3
+
+File: uk
+    Copyright 2023 XalisRatt
     License: GNU GPL-3
 
 Files: teamspeak*.png
