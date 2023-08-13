@@ -4,7 +4,7 @@
 # an installation package of the TeamSpeak 3 and run the installer
 # Created by Paweł "pavroo" Pijanowski 2017/01/19
 # Copyright 2017-2023 under the GNU GPL2 License
-# Last update 2023/06/23
+# Last update 2023/08/13
 
 DEFLOCDIR="/usr/share/sparky/teamspeak-installer"
 if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
@@ -64,9 +64,9 @@ else
 	exit 1
 fi
 SERVER32="http://files.teamspeak-services.com/releases/client/3.5.6"
-SERVER64="http://files.teamspeak-services.com/releases/client/3.6.0"
+SERVER64="http://files.teamspeak-services.com/releases/client/3.6.1"
 PACK32="TeamSpeak3-Client-linux_x86-3.5.6.run"
-PACK64="TeamSpeak3-Client-linux_amd64-3.6.0.run"
+PACK64="TeamSpeak3-Client-linux_amd64-3.6.1.run"
 ARCHARM="`uname -m | grep arm`"
 
 if [ "$ARCHARM" != "" ]; then
