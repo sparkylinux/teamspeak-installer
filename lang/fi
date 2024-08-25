@@ -1,0 +1,31 @@
+# Suomenkielinen lokalisointitiedosto TeamSpeakille, joka perustuu VMPlayer Installeriin.
+# Tekijänoikeus 2017 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 19.1.2017
+# GNU GPL v2:n alla
+# Viimeisin päivitys 2017/11/08, Pavroo
+LOCAL1="Poistu"
+LOCAL2="Nimi"
+LOCAL3="Kuvaus"
+LOCAL4="TeamSpaek Client Online Installer"
+LOCAL5="On-Line-asennusohjelma tarjoaa TeamSpeak Clientin.\n\nValitse vaihtoehto:"
+LOCAL6="Asenna TeamSpeak Client"
+LOCAL7="Päivitä TeamSpeak Client"
+LOCAL8="Poista TeamSpeak Client järjestelmästä"
+LOCAL9="Älä tee mitään, asenna sen myöhemmin"
+LOCAL10="Sovellus on jo asennettu!"
+LOCAL11="Poistutaan..."
+LOCAL12="Sovellus on asennettu onnistuneesti!"
+LOCAL13="Jotain on vialla! \nLuultavasti olet lopettanut asennuksen tai Internet-yhteytesi on katkennut."
+LOCAL14="Sinun on poistettava vanha TeamSpeak Client -versio järjestelmästä ennen uuden asentamista. \n\nHaluatko poistaa sen nyt?"
+LOCAL15="Mitään ei ole muutettu! \n\nLopeta napsauttamalla OK."
+LOCAL16="Jotain on vialla! \nTeamSpeak Client Installerin uutta versiota ei löydy.\n\nTarkista internetyhteytesi ja yritä uudelleen."
+LOCAL17="TeamSpeak Clientin vanhempaa versiota EI ole poistettu, joten sitä EI voi päivittää."
+LOCAL18="TeamSpeak Client -sovelluksen vanhempi versio on poistettu onnistuneesti.\n\nVoit asentaa uuden nyt."
+LOCAL19="Internet-yhteystesti epäonnistui!\n\nEt todennäköisesti ole yhteydessä Internetiin tai projektipalvelin ei toimi.\n\nTarkista ja yritä uudelleen."
+LOCAL20="TeamSpeak Clientiä ei löydy tietokoneellesi asennettuna, joten sitä EI voi päivittää."
+LOCAL21="Tämä poistaa TeamSpeak Client -sovelluksen järjestelmästäsi.\n\nHaluatko poistaa sen nyt?"
+LOCAL22="TeamSpeak Client -ohjelmaa EI ole poistettu."
+LOCAL23="TeamSpeak Client on poistettu tai sitä ei ole asennettu tietokoneellesi."
+LOCAL24="Se ei voi olla asennettu Debian/Sparky-versioosi."
+### .desktop-tiedosto, johon käännetään
+# Name[fi]=TeamSpeak Client Installer
+# Comment[fi]=Tämän avulla voit asentaa, päivittää ja poistaa TeamSpeak Clientin
