@@ -16,7 +16,7 @@
 
 if [ "$1" = "uninstall" ]; then
 	rm -f /usr/bin/teamspeak-installer   	
-	rm -f /usr/lib/sparky-aptus/messenger/teamspeak-installer.desktop
+	#rm -f /usr/lib/sparky-aptus/messenger/teamspeak-installer.desktop
 	rm -f /usr/share/pixmaps/teamspeak.png
 	rm -f /usr/share/pixmaps/teamspeak256.png
 	rm -rf /usr/share/sparky/teamspeak-installer
@@ -26,10 +26,10 @@ else
 		mkdir -p /opt/teamspeak
 	fi
  	cp bin/teamspeak-installer /usr/bin/
-	if [ ! -d /usr/lib/sparky-aptus/messenger ]; then
-		mkdir -p /usr/lib/sparky-aptus/messenger
-	fi
-	cp share/teamspeak-installer.desktop /usr/lib/sparky-aptus/messenger/
+	#if [ ! -d /usr/lib/sparky-aptus/messenger ]; then
+	#	mkdir -p /usr/lib/sparky-aptus/messenger
+	#fi
+	#cp share/teamspeak-installer.desktop /usr/lib/sparky-aptus/messenger/
 	cp share/teamspeak.png /usr/share/pixmaps/
 	cp share/teamspeak256.png /usr/share/pixmaps/
 	if [ ! -d /usr/share/sparky/teamspeak-installer ]; then
